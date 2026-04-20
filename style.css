@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz@0,14..32;1,14..32&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #95baba;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #414141;
+}
+
+.container {
+    width: min(90%, 500px);
+    margin: 0 auto;
+    padding: 0 16px;
+    
+}
+
+.innerbox{
+background-color: #f0ecec;
+border-radius: 10px;
+
+}
+
+.innerbox h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+form .container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 50px;
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remember-me{
+    font-size: 14px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+label{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #717070;
+}
+
+input{
+    padding: 10px;
+    background-color: #c2bcbc;
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+button{
+    padding: 10px;
+    font-size: 14px;
+    background-color: #2d2d71;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
